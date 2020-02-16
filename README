@@ -1,0 +1,22 @@
+Ryan McCrory
+rmccrory@ucsc.edu
+CSE 143: Natural Language Processing
+Assignment 1
+
+To run my program, first open it in pycharm. Make sure the train, dev, and test data sets are in the same directory.
+Click add configuration, click the plus icon, click python, and give it a name (for example, nlp_models).
+Then click the folder icon under script path which should default to where the file is, then press ok. Then choose a
+python interpreter. Then press apply at the bottom and press ok.
+
+Then the program will be ready to run, so press the play button to run models.py. This will first print the perplexities of the unigram, bigram, and trigram
+models for each data set. Then, it will print the linear interpolated smoothed perplexity for each data set using the
+best hyperparameters I found during my grid search on the dev set.
+
+If you want to try different hyperparameters, change the values of x1, x2, or x3 on lines 277 - 279.
+
+If you want to test Part 2.3 (train the models on half the training set) uncomment lines 174-178, and 219-223
+
+If you want to test Part 2.4 (convert tokens that appear less than 5 times
+to UNK, uncomment lines 201 - 207.
+
+Note: This is my first ever python program. I am not sure how to run it outside of pycharm.
