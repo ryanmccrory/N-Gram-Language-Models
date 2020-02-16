@@ -18,5 +18,3 @@ If you want to test Part 2.3 (train the models on half the training set) uncomme
 
 If you want to test Part 2.4 (convert tokens that appear less than 5 times
 to UNK, uncomment lines 201 - 207.
-
-Note: This is my first ever python program. I am not sure how to run it outside of pycharm.
